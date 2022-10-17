@@ -1,4 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+
 body {
+  font-family: 'Kanit', sans-serif;
   margin: 0;
+  margin-left: 10px;
   padding: 0;
+  background-color: #bfc0c0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+
+.headshot {
+  border-radius: 50%;
+}
+
+.about-block {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  width: 50%;
+}
+
+p img {
+  max-width: 100%;
+}
+
+.proj-content {
+  padding: 5px;
+  padding: 10px;
+}
+
+div h1 {
+  text-align: center;
+}
+
+code {
+  background-color: #f0ebd8;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px;
+}
+
+.proj-name-container {
+  display: flex;
+}
+
+.proj-name-container h3 {
+  cursor: pointer;
+  flex: 1;
+}
+
+.about-para {
+  margin-top: 0;
+}
+
+.about-header {
+  margin-bottom: 0;
+}
+
+.aboutme {
+  margin-top: 10px;
+}
+
+.aboutme h1 {
+  margin: auto;
+  margin-bottom: 0;
+}
+
+.aboutme h3 {
+  margin: auto;
+  margin-top: 0;
 }

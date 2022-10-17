@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Nav = () => {
+const Header = () => {
   return (
     <div>
     </div>
   );
 };
 
-export default Nav;
+export default Header;
