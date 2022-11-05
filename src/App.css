@@ -148,15 +148,10 @@ section .text-container .text-box {
   border-width: 1px;
 }
 
-.bubbles {
-  padding-top: 121.212%;
-  position: relative;
+.hey h3, .hey h1 {
+  z-index: 1;
+  cursor: default;
 }
-
-.bubs {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+section {
+  cursor: default;
 }
