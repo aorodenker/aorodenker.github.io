@@ -103,43 +103,7 @@ Retrieve a list of all classes or specific class information.
 ## `GET "/api/v1/favorites"`
 Retrieve a list of favorites for a single user.
 
-## Testing
-Testing has been done using cypress.
-
-Install Cypress.
-   > `npm install —save-dev cypress`
-
-   > Install Cypress on desktop [here](https://www.cypress.io/)
-
-Run dev and server
-   > `npm run dev`
-
-   > `npm run server-start`
-
-Run Cypress on desktop and locate the **integration** folder
-
-Example of tests
+## Test Example
 
 ![image](https://i.imgur.com/oOtOySX.png)
 ![image](https://i.imgur.com/KHRdbsG.gif)
-
-
-## Repo Setup
-
-Download depencies
-   > `npm install`
-
-Create **.env** file using **example.env** as a template
-
-Run webpack in development
-
-   > `npm run dev`
-
-Run server
-
-   > `npm run server-start`
-
-Visit local app at **http://localhost:3000**
-
-## Note
-You will no longer be able to log in as our AWS database is no longer active. However, you may still download our repository and take a look at our log in page.

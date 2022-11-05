@@ -1,12 +1,16 @@
 import React from 'react';
-import headshot from '../assets/headshot1.jpg';
+// import headshot from '../assets/headshot1.jpg';
 
 const AboutMe = () => {
   return (
+    <>
     <div className="aboutme">
-      <img className="headshot" src={headshot} alt="head-shot"/>
-      <h1>Andrew Orodenker</h1>
-      <h3>Software Engineer @ Galvanize</h3>
+        {/* <img className="headshot" src={headshot} alt="head-shot"/> */}
+        <div className="hey">
+          <h3>Hey, I'm</h3>
+          <h1>Andrew Orodenker</h1>
+        </div>
+    </div>
       <div className="about-block">
         <h4 className="about-header">About Me</h4>
         <p className="about-para">
@@ -21,7 +25,7 @@ const AboutMe = () => {
         Avid snowboarder with a fondness for unfamiliar cultures.
         </p>
       </div>
-    </div>
+    </>
   );
 };
 
