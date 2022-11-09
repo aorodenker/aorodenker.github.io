@@ -52,7 +52,7 @@ const Content = () => {
         </div>
       </section>
       <section className="projects">
-        <div className="container reveal fade-bottom">
+        <div className="container reveal fade-bottom thanks">
           <h2>Recent repos</h2>
         </div>
         <div className="proj container reveal fade-bottom">
