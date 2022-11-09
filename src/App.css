@@ -10,6 +10,7 @@
 
 body {
   background-image: linear-gradient(rgb(106, 235, 224), rgb(16, 63, 150));
+  color: rgb(207, 202, 202);
 }
 
 section {
@@ -123,6 +124,7 @@ section .text-container .text-box {
   margin: auto;
   text-align: center;
   flex-direction: column;
+  padding-top: 5vh;
 }
 
 .links img {
@@ -184,4 +186,48 @@ section .proj {
 .duo {
   display: flex;
   width: 60vw;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(207, 202, 202);
+}
+
+.link-icon {
+  height: 3vh;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .hey {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hey h1 {
+    padding: 0;
+    margin-top: 0;
+  }
+
+  .my-journey, .meat, section, .text-container, .proj, .text-box, .duo, .thanks {
+    min-width: 90%;
+  }
+
+  section h2 {
+    font-size: 30px;
+  }
+
+  .duo, .proj {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gymx {
+    width: 90%;
+  }
+
+  .links {
+    margin: 0;
+  }
+
 }
