@@ -2,6 +2,7 @@ import React from 'react';
 import emailIcon from '../assets/email-icon.png';
 import linkedIn from '../assets/linked-in.jpg';
 import linkIcon from '../assets/link.png';
+import githubIcon from '../assets/github.png';
 
 const Content = () => {
   const reveal = () => {
@@ -35,13 +36,21 @@ const Content = () => {
           <br />
           <br />
           <h3 className="meat">
+            My passion as a software engineer is to create innovative solutions
+            to complex problems and develop cutting-edge technology that can
+            make a positive impact in the world. I strive to be a leader in
+            the software engineering field, and I'm constantly looking for
+            ways to use my technical knowledge and experience to create solutions
+            that make life better for everyone. I'm driven by the challenge of
+            creating solutions that are efficient and effective, and I'm
+            passionate about building something that can change the world.
+            <br />
+            <br />
+            <br />
             Having been a self-taught software engineer as a hobby over
             the past few years, in 2021 I stepped away from a 10 year
             career as a Team Leader at Trader Joes to attend Hack Reactor`s
-            Software Engineering Immersive. The intricacies of code in
-            tandem with the boundless languages, libraries, and frameworks
-            stimulate my mind endlessly. My most recent muses have been three.js
-            and particle.js.
+            Software Engineering Immersive.
             <br />
             <br />
             <br />
@@ -127,6 +136,14 @@ const Content = () => {
               </a>
               <p>
                 LinkedIn
+              </p>
+            </div>
+            <div className="links">
+              <a href="https://www.github.com/aorodenker" target="_blank" rel="noopener noreferrer">
+                <img alt="email" src={githubIcon} />
+              </a>
+              <p>
+                GitHub
               </p>
             </div>
             <div className="links">
